@@ -4,5 +4,5 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - "SPLUNK_START_ARGS=--accept-license"
-      - "SPLUNK_PASSWORD=testtest123"
+      - SPLUNK_START_ARGS=--accept-license
+      - SPLUNK_PASSWORD=XXX
